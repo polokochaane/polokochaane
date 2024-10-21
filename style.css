@@ -4,7 +4,7 @@ body{
     font-style: normal;
     margin: 0;
     padding: 20px;
-    background-color: yellow;
+    background-color: whitesmoke;
     
 
 }
@@ -41,17 +41,15 @@ body{
 
 
 }
-.carousel-images{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    font: display 800px;
+.carousel-images img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
     align-items:center;
-    color: #000;
     font-size: 400px;
-    max-width: 800px
-    margin: right 0;
-    background-image:;
+    margin: 10px;
+    border-radius:30px;
+    
 }
     
 
