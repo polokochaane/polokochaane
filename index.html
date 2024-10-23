@@ -5,7 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
     <style>
-        nav 
+    .nav {
+    background-color: #333;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    flex: 1; /* Makes items take equal space */
+}
+
+.nav-menu a {
+    display: block;
+    padding: 14px 20px;
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #48e917; /* Darker on hover */
+} 
     </style>
 </head>
 </html>
