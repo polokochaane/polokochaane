@@ -8,26 +8,36 @@ body{
     
 
 }
-
-
-. background-container{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(url(../../Pictures/Angel-Falls.jpg));
-    background-position: center;
-    background-size: contain;
+nav {
+    background-color: #333;
 }
-.menu ul{
-    display:inline-flex;
-    margin: 50px;
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-.menu ul li{
+
+.nav-menu li {
+    flex: 1; /* Makes items take equal space */
+}
+
+.nav-menu a {
+    display: block;
+    padding: 14px 20px;
+    color:red;
     text-align: center;
-    list-style: none;
-    margin: 0 20px;
-    color: #b2b1b1;
-    cursor: pointer;
-    
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #48e917; /* Darker on hover */
+}
+
+
+
 }
 .
 
