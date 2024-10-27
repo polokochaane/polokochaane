@@ -1,0 +1,163 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+    
+
+}
+}
+
+nav {
+    background-color: #333;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    flex: 1; /* Makes items take equal space */
+}
+
+.nav-menu a {
+    display: block;
+    padding: 14px 20px;
+    color:red;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #48e917; /* Darker on hover */
+}
+
+}
+.
+
+}
+.carousel{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-right: 20px;
+    object-fit: cover;
+    
+
+
+}
+.carousel-images img{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    align-items:center;
+    font-size: 400px;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+
+}
+}
+
+
+}
+.video-item{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    flex: 20px;
+    max-width:  20px; 
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.video-container{
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 0 4px 10px;
+
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.wrapper a{
+    width: 220px;
+    height: 70px;
+    text-decoration: none;
+    border: 1px solid #000 ;
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    margin: 10px;
+    font-family: sans-serif;
+    
+}
+.my-form{
+    max-width: 600px;
+    margin: 500px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: aqua;
+    top: inherit;
+
+}
+.label{
+    display:inline-block;
+    margin-bottom: 200px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.input{
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    text-align: center;
+
+
+}
+.input;focus{
+    border-color: bisque;
+    outline: none;
+
+
+}
+.button{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.button:hover{
+    background-color: red;
+}
+
+}; 
+}
+
+
+
+}
